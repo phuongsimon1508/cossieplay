@@ -11,31 +11,43 @@
 <h1><img src="images/ViewLogo.jpg.png">     Welcome To Cossieplay </h1>
 
 <ul>
-  <li><a   href="index.html">Home</a></li>
-  <li><a  href="history.html">History</a></li>
-  <li><a href="What-is-cosplay.html">What is cosplay</a></li>
+  <li><a  href="index.html">Home</a></li>
+  <li><a href="history.html">History</a></li>
+  <li><a href="what-is-cosplay.html">What is cosplay</a></li>
   <li><a href="about-cossieplay.html">About Cossieplay</a></li>
-  <li><a href="party-guidlineshtml">Party guidlines</a></li>
+  <li><a href="party-guidlines.html">Party guidlines</a></li>
   <li><a class="active" href="sign-up.html">Sign up</a></li>
   <li><a href="contact.html">Contact</a></li>
 </ul>
 
-  <h2 class="register-title">Welcome</h2>
-  <form class="register">
-    <div class="register-switch">
-      <input type="radio" name="sex" value="F" id="sex_f" class="register-switch-input" checked>
-      <label for="sex_f" class="register-switch-label">Female</label>
-      <input type="radio" name="sex" value="M" id="sex_m" class="register-switch-input">
-      <label for="sex_m" class="register-switch-label">Male</label>
-    </div>
-    <input type="email" class="register-input" placeholder="Email address">
-    <input type="password" class="register-input" placeholder="Password">
-    <input type="phonenumber" class="register-input" placeholder="Phone number">
-    <input type="submit" value="Create Account" class="register-button">
+<p>&nbsp;</p>
+<div>
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+    <label for="lname">Phone Number</label>
+    <input type="text" id="lname" name="phonenumber">
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="email">
+
+    <label for="country">State</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
   </form>
+</div>
+
 
   
-  </div>
   
+
+<p>&nbsp;</p>
 </body>
 </html>
